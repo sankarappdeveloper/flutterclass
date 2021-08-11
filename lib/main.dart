@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:validation/screens/09-08-21/monday09.dart';
+import 'package:validation/screens/11-08-2021/basicsoflayouts.dart';
 import 'package:validation/screens/dashboardpage.dart';
 
 void main() {
@@ -17,7 +18,7 @@ class Defaultpage extends StatelessWidget{
           accentColor: Colors.orange
       ),
       title:"Warpe Acedemy",
-      home: Monday09()
+      home: Basicsoflayouts()
     );
   }
 }
