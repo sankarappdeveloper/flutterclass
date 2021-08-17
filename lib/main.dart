@@ -1,12 +1,25 @@
+import 'dart:developer';
+
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 import 'package:validation/screens/09-08-21/monday09.dart';
 import 'package:validation/screens/11-08-2021/basicsoflayouts.dart';
 import 'package:validation/screens/12-08-2021/wedenesdaytwelve.dart';
 import 'package:validation/screens/14-08-2021/sharedpreferencetask.dart';
+import 'package:validation/screens/17-08-2021/provider/countprovider.dart';
+import 'package:validation/screens/17-08-2021/providerexample.dart';
 import 'package:validation/screens/dashboardpage.dart';
 
 void main() {
-  runApp(Defaultpage());
+  runApp(
+
+      MultiProvider(
+          providers: [
+            ChangeNotifierProvider(create: (_) => Countprovider()),
+          ],
+          child:
+
+      Defaultpage()));
 }
 
 class Defaultpage extends StatelessWidget{
@@ -20,7 +33,7 @@ class Defaultpage extends StatelessWidget{
           accentColor: Colors.orange
       ),
       title:"Warpe Acedemy",
-      home: Sharedpreferencetask()
+      home: Providerexample()
     );
   }
 }
