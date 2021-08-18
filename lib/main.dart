@@ -8,6 +8,8 @@ import 'package:validation/screens/12-08-2021/wedenesdaytwelve.dart';
 import 'package:validation/screens/14-08-2021/sharedpreferencetask.dart';
 import 'package:validation/screens/17-08-2021/provider/countprovider.dart';
 import 'package:validation/screens/17-08-2021/providerexample.dart';
+import 'package:validation/screens/18-08-2021/lisiviewdata.dart';
+import 'package:validation/screens/18-08-2021/providerapi/listviewprovider.dart';
 import 'package:validation/screens/dashboardpage.dart';
 
 void main() {
@@ -16,6 +18,7 @@ void main() {
       MultiProvider(
           providers: [
             ChangeNotifierProvider(create: (_) => Countprovider()),
+            ChangeNotifierProvider(create: (_) => Listprovider()),
           ],
           child:
 
@@ -33,7 +36,7 @@ class Defaultpage extends StatelessWidget{
           accentColor: Colors.orange
       ),
       title:"Warpe Acedemy",
-      home: Providerexample()
+      home: Listview()
     );
   }
 }
