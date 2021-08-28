@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1029031359819",
+    "project_id": "warpeclass",
+    "storage_bucket": "warpeclass.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1029031359819:android:dedc3683aab267876ba4ce",
+        "android_client_info": {
+          "package_name": "com.validation.validation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1029031359819-po29ii9qssupkj311t4tef3jecvelhht.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.validation.validation",
+            "certificate_hash": "efc9ee3d25892e601ed86a71d6aea3baffa6f2b5"
+          }
+        },
+        {
+          "client_id": "1029031359819-m5kbdec5h6l185bt9sa8ggji6elffevo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZXRIcqVOTofjbskOtYYbFkvJKV5PiqCI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1029031359819-m5kbdec5h6l185bt9sa8ggji6elffevo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
